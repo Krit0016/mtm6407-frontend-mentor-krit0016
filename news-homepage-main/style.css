@@ -1,0 +1,161 @@
+/* Regular */
+@font-face {
+    font-family: 'Inter';
+    src: url('/news-homepage-main/assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Inter';
+    src: url('/news-homepage-main/assets/fonts/static/Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Extra Bold */
+@font-face {
+    font-family: 'Inter';
+    src: url('/news-homepage-main/assets/fonts/static/Inter-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Use the numeric value for extra bold */
+    font-style: normal;
+}
+
+/* Apply regular font to body */
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal; /* Ensure it's set to normal for regular weight */
+}
+
+p {
+    color: #00000052;
+}
+
+/* Apply bold font to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold; /* Use bold weight */
+}
+
+/* Apply extra bold font to specific elements */
+.extra-bold-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800; /* Use the numeric value for extra bold */
+}
+
+
+.navbar-nav {
+    width: 100%; /* Ensure the navbar items take up full width */
+}
+  
+.navbar-collapse {
+    justify-content: flex-end; /* Align navbar items to the end */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active {
+    color: #f05d53;
+}
+
+
+.container {
+    padding: 20px;
+}
+
+.news {
+    background-color: #000006;
+    padding: 20px; /* Add padding to create space around the content */
+    color: white; /* Set text color to white */
+}
+.news p {
+    color: white;
+    padding: 10px;
+}
+      
+.news h2 {
+    color: #e6ac5b; /* Set h2 text color to yellow */
+    padding: 10px;
+}
+
+.news h3 {
+    padding: 10px;
+}
+      
+.btn-primary {
+    background-color: #f05d53; /* Set background color to red */
+    color: white; /* Set text color to white */
+    text-transform: uppercase; /* Convert text to uppercase */
+    padding: 10px 50px; /* Add padding to create space around the text */
+    border: none; /* Remove border */
+    border-radius: 0; /* Remove border radius */
+    font-weight: 15px;
+    margin-top: 20px;
+}
+  
+.btn-primary:hover {
+    background-color: black; /* Change background color on hover */
+}
+  
+/* Add space between rows */
+.row {
+    margin-top: 2px; /* Adjust the value as needed */
+    margin-bottom: 2px; /* Adjust the value as needed */
+}
+
+
+footer {
+    margin-top: 30px;;
+}
+  
+  
+.articles h2 {
+    color: #cbc7ce;
+}
+
+.articles h3 {
+    font-size: 20px;
+}
+
+.news a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+
+.news a:hover {
+    color: #e6ac5b; /* Yellow color on hover */
+}
+  
+.news a:active {
+    color: #e6ac5b; /* Yellow color on active state */
+}
+
+.article-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+
+.article-link:hover,
+.article-link:active {
+    color: #f05d53; /* Set color to yellow on hover and active states */
+}
+
+.header-text h1{
+    font-size: 50px;
+}
+
+.image-banner {
+    margin-bottom: 0; /* Remove top padding */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.header-text {
+    padding: 20px;
+}
+
+.articles {
+    padding: 20px;
+}
